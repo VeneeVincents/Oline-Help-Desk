@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="full-page">
+        
+        <div id='login-form' class="login-page">
+            <div class="form-box">
+                <span onclick="document.getElementById('login-form').style.display='none'" class="close">&times;</span>
+                <div class="form">
+                    <form class="login-form">
+                        <center><h1 class="main-heading">Login Form</h1></center>
+				        <input type="text"placeholder="user name"/>
+				        <input type="password"placeholder="password"/>
+				        <button>LOGIN</button>
+				    </form>
+                </div>
+            </div>
+        </div>
+        <div id="register-form" class='register-page'>
+            <div class="form-box1">
+               <span onclick="document.getElementById('register-form').style.display='none'" class="close">&times;</span>
+                <div class="form1">
+                    <form class='register-form'>
+                        <center><h1 class="main-heading">Register Form</h1></center>
+				        <input type="text" name='user'placeholder="user name"/>
+				        <input type="text" name='email'placeholder="email-id"/>
+				        <input type="password"name='password' placeholder="password"/>
+				        <button>REGISTER</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
